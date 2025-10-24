@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>K&N Gadgets</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>K&N Gadgets</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#feedback">Feedback</a>
+    <a href="#whyus">Why Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>Welcome to K&N Gadgets</h2>
+  <p>Your trusted source for quality iPhones at great prices.</p>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/kris.jpg" class="owner">
+  <p>At K&N Gadgets, we bring you top-quality iPhones like XR, X, and 11 at fair and affordable prices.
+  Every phone is checked carefully to ensure great performance and quality.
+  We believe in honest deals, smooth transactions, and customer satisfaction.
+  Our goal is to give you a phone that feels brand new, works perfectly, and fits your budget.
+  Shop confidently and experience reliable gadgets with K&N Gadgets!</p>
+</section>
+
+<section id="products">
+  <h2>Our Products</h2>
+  <div class="phones">
+
+    <div class="phone" onclick="show(this)">
+      <div class="flip">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/wfront.jpg" class="front">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/wback.jpeg" class="back">
+      </div>
+      <p>iPhone X 64GB/128GB</p>
+      <div class="info">
+        <p>Battery: 96%</p>
+        <p>Color: Gold</p>
+        
+        <a href="#contact" class="buy">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="phone" onclick="show(this)">
+      <div class="flip">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/xrfront.jpg" class="front">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/xrback.jpg" class="back">
+      </div>
+      <p>iPhone xr 128GB</p>
+      <div class="info">
+        <p>Battery: 94%</p>
+        <p>Color: White</p>
+        
+        <a href="#contact" class="buy">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="phone" onclick="show(this)">
+      <div class="flip">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/rfront.jpg" class="front">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/rblack.jpg" class="back">
+      </div>
+      <p>iPhone 12 128GB</p>
+      <div class="info">
+        <p>Battery: 92%</p>
+        <p>Color: Red</p>
+       
+        <a href="#contact" class="buy">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="phone" onclick="show(this)">
+      <div class="flip">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/bfront.jpg" class="front">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/bback.jpg" class="back">
+      </div>
+      <p>iPhone XR 128GB</p>
+      <div class="info">
+        <p>Battery: 95%</p>
+        <p>Color: Blue</p>
+        
+        <a href="#contact" class="buy">Buy Now</a>
+      </div>
+    </div>
+
+    <div class="phone" onclick="show(this)">
+      <div class="flip">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/Afront.jpg" class="front">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/Aback.jpg" class="back">
+      </div>
+      <p>iPhone Xs 64GB/128GB</p>
+      <div class="info">
+        <p>Battery: 90%</p>
+        <p>Color: Gold</p>
+        
+        <a href="#contact" class="buy">Buy Now</a>
+      </div>
+    </div>
+    <div class="phone" onclick="show(this)">
+      <div class="flip">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/bfrontt.jpg" class="front">
+        <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/html/bblack.jpg" class="back">
+      </div>
+      <p>iPhone X 256GB</p>
+      <div class="info">
+        <p>Battery: 93%</p>
+        <p>Color: Space Gray</p>
+        
+        <a href="#contact" class="buy">Buy Now</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="feedback">
+  <h2>Customer Feedback</h2>
+
+  <div class="feedback" onclick="fb(this)">
+    <p class="name">⭐⭐⭐⭐⭐ kennet Glen</p>
+    <p class="comment">Worth it ang iPhone XR 128GB! Clear camera and fast transaction!</p>
+  </div>
+
+  <div class="feedback" onclick="fb(this)">
+    <p class="name">⭐⭐⭐⭐⭐ Neonelle Ampeloquio</p>
+    <p class="comment">Legit seller! iPhone X is smooth and looks new. Highly recommended!</p>
+  </div>
+
+  <div class="feedback" onclick="fb(this)">
+    <p class="name">⭐⭐⭐⭐⭐ Gabriel Tongco</p>
+    <p class="comment">Fast delivery and safe packaging. My iPhone 11 works perfectly!</p>
+  </div>
+  <div class="feedback" onclick="fb(this)">
+    <p class="name">⭐⭐⭐⭐⭐ Reyvan Joy Lacumba</p>
+    <p class="comment">Seller is kind and responsive! My iPhone XS Max looks brand new!</p>
+  </div>
+
+  <div class="feedback" onclick="fb(this)">
+    <p class="name">⭐⭐⭐⭐⭐ Mj Ramos</p>
+    <p class="comment">Excellent quality iPhone 11 Pro Max! Worth the price!</p>
+  </div>
+
+  <div class="feedback" onclick="fb(this)">
+    <p class="name">⭐⭐⭐⭐⭐ Aaliyah reox</p>
+    <p class="comment">Very smooth transaction! Looks brand new</p>
+  </div>
+
+</section>
+
+<section id="whyus">
+  <h2>Why Choose Us</h2>
+  <p>At K&N Gadgets, your satisfaction and safety always come first.
+  We offer trusted deals, friendly service, and the best-quality iPhones that fit your lifestyle and budget.
+  Every phone we sell is tested and guaranteed to give you a smooth experience just like buying brand new!</p>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Facebook: <a href="https://www.facebook.com/Xomariaa06" target="_blank">https://www.facebook.com/Xomariaa06</a></p>
+  <p>Instagram: <a href="https://www.instagram.com/xo_chiaax" target="_blank">@xo_chiaax</a></p>
+  <p>Email: <a href="mailto:kandngadgets@gmail.com">K&NGADGETS@gmail.com</a></p>
+</section>
+
+<button id="topBtn" onclick="window.scrollTo(0,0)">Top</button>
+
+<script>
+function show(x){
+  let d=x.querySelector(".info");
+  d.style.display=d.style.display==="block"?"none":"block";
+}
+function fb(x){
+  let c=x.querySelector(".comment");
+  c.style.display=c.style.display==="block"?"none":"block";
+}
+</script>
+
+</body>
+</html>
