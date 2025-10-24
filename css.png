@@ -1,0 +1,149 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg,#0f172a,#1e293b);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background: #1e3a8a;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.owner {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 15px auto;
+  display: block;
+  box-shadow: 0 0 10px #38bdf8;
+}
+
+#about p {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+.phones {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.phone {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 15px;
+  width: 220px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 10px #0ea5e9;
+}
+
+.phone:hover {
+  transform: scale(1.05);
+}
+
+.flip {
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+.flip img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transition: transform 0.6s;
+}
+
+.flip:hover .front {
+  transform: rotateY(180deg);
+}
+
+.flip:hover .back {
+  transform: rotateY(0);
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.info {
+  display: none;
+  background: #334155;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.buy {
+  display: inline-block;
+  background: #0ea5e9;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.buy:hover {
+  background: #38bdf8;
+}
+
+.feedback {
+  background: #1e293b;
+  margin: 10px auto;
+  width: 250px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.comment {
+  display: none;
+  font-size: 14px;
+  color: #ddd;
+}
+
+#whyus, #contact {
+  padding: 30px;
+}
+
+#topBtn {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 8px 15px;
+  background: #0ea5e9;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
